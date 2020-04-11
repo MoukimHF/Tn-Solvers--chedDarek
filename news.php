@@ -16,6 +16,15 @@ include('head.php');
     max-width: 1200px;
     margin: auto;
 }
+h3{
+    font-family: 'Lateef', serif;}
+.scheherazade{font-family: 'Scheherazade', serif;
+}
+
+.ida{
+background: rgba(76, 175, 80, 0.3);
+}
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css); 
 .card {
     display: flex;
     flex-direction: row;
@@ -25,12 +34,13 @@ include('head.php');
     width: 1200px;
     margin: 10px 10px 5px;
     padding: 0px;
-    background: #52bab3;
-    border-radius: 0.25em;
-    border: 1px solid rgba(50, 50, 50, 0.3);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 30px;
     transition: .4s ease-out;
     overflow: hidden;
-    border-radius: 5px;
+    font-family: 'Lateef', serif;}
+.scheherazade{font-family: 'Scheherazade', serif;
 }
 section {
     padding: 10px 0;
@@ -81,7 +91,7 @@ section {
                     <div id="gallery" class="gallery">
             
             </div>
-                    
+            </div>        
 
 </section>
 

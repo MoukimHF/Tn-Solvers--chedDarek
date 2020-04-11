@@ -16,21 +16,24 @@ include('head.php');
     max-width: 1200px;
     margin: auto;
 }
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css); 
 .card {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
     cursor: pointer;
-    width: 100%;
-    max-width: 560px;
-    margin: 10px 10px 20px;
+    width: 1200px;
+    margin: 10px 10px 5px;
+    padding: 0px;
+    border: 2px solid white;
     padding: 10px;
-    background: #52bab3;
-    border-radius: 0.25em;
-    border: 1px solid rgba(50, 50, 50, 0.3);
+    border-radius: 30px;
     transition: .4s ease-out;
     overflow: hidden;
+    background: rgba(76, 175, 80, 0.3);
+    font-family: 'Lateef', serif;}
+.scheherazade{font-family: 'Scheherazade', serif;
 }
 
 .card-img {

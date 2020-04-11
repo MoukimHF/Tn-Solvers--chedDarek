@@ -7,13 +7,20 @@ let dates=[];
  */
  
 
- 
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+console.log(today);
+
 
 async function fetchUser() {
 
   await fetch('https://newsapi.org/v2/everything?' +
           'q=كورونا&'+
-          'from=2020-04-10&' +'from=2020-04-11&' +
+          'from=2020-04-10&' +`from=${today}& `+
           'sortBy=popularity&' +
           'apiKey=1191efd329ab4ece8d040ea7189d1dcf')
     .then(response => response.json())

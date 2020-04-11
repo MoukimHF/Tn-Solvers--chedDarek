@@ -118,139 +118,41 @@ select{
 	margin: 6px;
 	color: gray;
 	padding: 12px 5px;	
-}</style>
+}
+
+.kadhya_wahda{
+border:1px solid white;
+padding:15px;
+border-radius:10px;
+font-size:17px;
+
+}
+.champ{
+	font-weight:bold;
+
+}
+
+
+
+</style>
  <section class="download bg-primary pb-3">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
                     <div class="section-heading text-center mb-5">
                      
-                        <h2>Rahma 2 </h2>
-                        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+                        <h2>الجار للجار رحمة
+ </h2>
+                     
 
-                       
-           <select id="wilaya">
-                                        <optgroup label="zunis">
-		<option>		تونس                          </option>
-		<option>		سيدي حسين                     </option>
-		<option>		حلق الوادي                    </option>
-		<option>		والكرم                        </option>
-		<option>		وباردو                        </option>
-		<option>		سيدي بوسعيد                   </option>
-		<option>		قرطاج                         </option>
-		<option>		المرسى                        </option>
-        <optgroup label="ariana">
-		<option>		أريانة                        </option>
-		<option>		التضامن                       </option>
-		<option>		لمنيهلة                       </option>
-		<option>		، ورواد،                      </option>
-		<option>		 وسكرة                        </option>
-		<option>		وسيدي ثابت،                   </option>
-		<option>		 وقلعة الأندلس                 </option>
-		
-        <optgroup label="ben arous">
-		<option>		بن عروس،                      </option>
-		<option>		 والمروج                    </option>
-		<option>		 والمحمدية،                   </option>
-		<option>		وفوشانة،                      </option>
-		<option>		 الخليدية،                    </option>
-		<option>		 ونعسان،                      </option>
-		<option>		ومرناق،                       </option>
-		<option>		 وبومهل البساتين،             </option>
-		<option>		 وحمام الأنف،                  </option>
-		<option>		 والزهراء،                    </option>
-		<option>		 وحمام الشط،                  </option>
-		<option>		ومقرين                        </option>
-		<option>		ورادس                         </option>
-        <optgroup label="manouba">
-		<option>		منوبة،                        </option>
-		<option>		 والدندان،                    </option>
-		<option>		 والمرناقية،                  </option>
-		<option>		والبطان،                      </option>
-		<option>		وطبربة،                       </option>
-		<option>		والجديدة،                     </option>
-		<option>		 ودوار هيشر،                  </option>
-		<option>		برج العامري                   </option>
-		<option>		، والبساتين                   </option>
-		<optgroup label="zaghouan">
-		<option>		زغوان،                        </option>
-		<option>		 والفحص،                      </option>
-		<option>		وجبل الوسط،                   </option>
-		<option>		 وبئر مشارقة،                 </option>
-		<option>		 والعمايم،                    </option>
-		<option>		والناظور،                     </option>
-		<option>		وصواف                         </option>
-		<option>		والزريبة                      </option>
-	
-    <optgroup label="kairaouan">
-
-		<option>		ملقى التطور،                  </option>
-		<option>		 وبلطة بوعوان، و              </option>
-		<option>		عين الصبح ناظور، و            </option>
-		<option>		القلعة المعدن قرفصان، و       </option>
-		<option>		الجواودة و                    </option>
-		<option>		الخمايرية.                    </option>
-        <optgroup label="sidi bouzid">
-		<option>		السلوقية، و                   </option>
-		<option>		سيدي إسماعيل، و               </option>
-		<option>		تيبار و                       </option>
-		<option>		وشتاتة الجميلة.               </option>
-		
-		<optgroup label="gabes">
-		<option>		برقو (الربع)،                 </option>
-		<option>		 كسرى،                        </option>
-		<option>		 بوعرادة،                     </option>
-		<option>		قعفور،                        </option>
-		<option>		 الكريب،                      </option>
-		<option>		 العروسة،                     </option>
-		<option>		الأخوات،                       </option>
-		<option>		 سيدي بورويس،                 </option>
-		<option>		 مكثر.                        </option>
-<optgroup label="monastir">
-		<option>                                      </option>
-		<option>		الجريصة                       </option>
-		<option>		الدهماني                      </option>
-		<option>		ساقية سيدي يوسف               </option>
-		<option>		السرس                         </option>
-		<option>		القصور                        </option>
-		<option>		القلعة الخصبة                 </option>
-		<option>		قلعة سنان                     </option>
-		<option>		الكاف الشرقية                 </option>
-		<option>		الكاف الغربية                 </option>
-		<option>		نبر                           </option>
-		<option>		الطويرف                       </option>
-		<option>		البقالطة                      </option>
-		<option>		بنبلة                         </option>
-		<option>		بني حسان                      </option>
-		<option>		جمال                          </option>
-		<option>		قصر هلال                       </option>
-		<option>		قصيبة المديوني                </option>
-		<option>		المكنين                       </option>
-		<option>		المنستير                      </option>
-		<option>		الوردانين                     </option>
-		<option>		الساحلين                      </option>
-		<option>		صيادة لمطة بوحجر              </option>
-		<option>		طبلبة                         </option>
-		<option>		زرمدين                        </option>
-		</select>
-	
-                    </form>
-                   <textarea id="textzebi" style="display:none"> dsqjdsghdksjqhdkjsq ghkjdhsqjkdh sqjkhdsqkjh djksqhq jshdlkqsdh</textarea>
-                   <textarea id="textzebi" style="display:none"> dsqjdsghdksjqhdkjsq ghkjdhsqjkdh sqjkhdsqkjh djksqhq jshdlkqsdh</textarea>
-                   <textarea id="textzebi" style="display:none"> dsqjdsghdksjqhdkjsq ghkjdhsqjkdh sqjkhdsqkjh djksqhq jshdlkqsdh</textarea>
-                   <textarea id="textzebi" style="display:none"> dsqjdsghdksjqhdkjsq ghkjdhsqjkdh sqjkhdsqkjh djksqhq jshdlkqsdh</textarea>
-                   <textarea id="textzebi" style="display:none"> dsqjdsghdksjqhdkjsq ghkjdhsqjkdh sqjkhdsqkjh djksqhq jshdlkqsdh</textarea>
-                   <textarea id="textzebi" style="display:none"> dsqjdsghdksjqhdkjsq ghkjdhsqjkdh sqjkhdsqkjh djksqhq jshdlkqsdh</textarea>
-
-                   <script>
-                       document.getElementById('wilaya').addEventListener('click',()=>{
-                        let kadhya=document.querySelectorAll('textarea');
-                        for(let i=0;i<kadhya.length;i++){
-                        kadhya[i].style.display="block";
-                    }
-                       });
-                       </script>
-                    </div>
+					   
+					</div>
+					<div class="9adhya">
+					<?php 
+					include('2.php');
+					?>
+					</div>
+					
                     <div id="gallery" class="gallery">
             
             </div>

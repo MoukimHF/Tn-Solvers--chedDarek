@@ -2,9 +2,9 @@ let newCases=[];
 let dates=[];
  
 
-async function fetchUser() {
+ function fetchUser() {
 
-   await fetch('https://corona-api.com/countries/TN')
+    fetch('https://corona-api.com/countries/TN')
     .then(response => response.json())
     .then(data => data.data)
 	.then(generateHTML)
@@ -22,12 +22,14 @@ function generateHTML(data) {
 	
 	if(index % 2 ===0){
 		newCases.unshift(user.new_confirmed);
-		dates.push('Day '+parseInt(index+1));
+    dates.push('Day '+parseInt(index+1));
+    
 	}
 		
 		});	}	 
           console.log(newCases);
           let myChart = document.getElementById('myChart').getContext('2d');
+         
 
     // Global Options
     Chart.defaults.global.defaultFontFamily = 'Lato';
@@ -83,6 +85,7 @@ let chartTN={
         }
       }
     }
+    
 
 
     let massPopChart = new Chart(myChart, chartTN);

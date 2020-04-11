@@ -38,7 +38,7 @@ include('nav.php');
                            
                                 Grâce à notre plateforme technologique et à notre intelligence artificielle, nous <span class="font-weight-bold">pouvons fournir de l'aide</span> rapidement, en toute sécurité et de manière évolutive.
                             </div>
-                            <a href="#howitworks" class="btn-machbarschaft btn-s btn-white text-center d-inline-block">En savoir plus</a>
+                            <a href="./rahma.php" class="btn-machbarschaft btn-s btn-white text-center d-inline-block">En savoir plus</a>
                         </div>
                        
                     </div>
@@ -61,11 +61,20 @@ include('nav.php');
         <div class="container">
             <div class="row">
                 <div class="col-12 mb-5">
-                    <img src="edited.png" width="150px" class="d-block mt-2 mb-3 ml-auto mr-auto">
+                   <p>Jar lel Jar Rahma est une AIDE DE quartier pour les personnes avecaccès à Internet 
+Nous développons une solution accessible à tous: une application Web basé où les voisins peuvent soumettre leurs demandes d'achat. Avec une application dans laquelle les bénévoles peuvent accepter les demandes à proximité.
+</p>
+                    <img src="moukim.png" width="150px" class="d-block mt-2 mb-3 ml-auto mr-auto">
                 </div>
                 <div class="col-12">
+                   <p></p>
                     <div class="ml-auto mr-auto text-center content-wrapper">
-                        Nous sommes l'un des 3 personnes sélectionnés parmi un total de 571 personnes dans le hackathon #Hack_cheddarek
+                      <a href="9adhya.php">
+
+<span style="font-size:30px">نوصي قضية  </span></a>
+<br>
+<a href="rahma2.php"><span style="font-size:30px">
+نقضي لجاري  </span></a>
                     </div>
                     <hr>
                 </div>
