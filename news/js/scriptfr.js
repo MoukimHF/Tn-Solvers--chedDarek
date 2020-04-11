@@ -12,7 +12,7 @@ let dates=[];
 async function fetchUser() {
 
   await fetch('https://newsapi.org/v2/everything?' +
-          'q=كورونا&'+
+          'q=le virus de corona&'+
           'from=2020-04-10&' +'from=2020-04-11&' +
           'sortBy=popularity&' +
           'apiKey=1191efd329ab4ece8d040ea7189d1dcf')
@@ -46,7 +46,7 @@ function generateHTML(data) {
           <div class="card-info-container">
 		  <h3>  :${user.title}</h3>
 		<p>${user.description}</p>
-		<span>مؤلف: ${user.author} </span>
+		<span>auteur: ${user.author} </span>
 		<a href="${user.url}">en savoir plus </a>
            
          

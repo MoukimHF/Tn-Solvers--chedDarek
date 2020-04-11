@@ -3,33 +3,9 @@
 <?php
 include('head.php');
 ?>
+
 <body id="page-top">
-    <!-- Mailjet -->
-    <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
-    <!-- Matomo -->
-    <script type="text/javascript">
-        var _paq = window._paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-        _paq.push(["setCookieDomain", "*."]);
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-            var u = "";
-            _paq.push(['setTrackerUrl', u + 'matomo.php']);
-            _paq.push(['setSiteId', '2']);
-            var d = document,
-                g = d.createElement('script'),
-                s = d.getElementsByTagName('script')[0];
-            g.type = 'text/javascript';
-            g.async = true;
-            g.defer = true;
-            g.src = u + 'matomo.js';
-            s.parentNode.insertBefore(g, s);
-        })();
-    </script>
-    <noscript><p><img src="" style="border:0;" alt="" /></p></noscript>
-    <!-- End Matomo Code -->
+   
     <?php
 include('nav.php');
 ?>
@@ -72,7 +48,7 @@ include('nav.php');
                 </div>
                 <div class="col-12">
                     <div class="ml-auto mr-auto text-center content-wrapper">
-                        Nous sommes l'un des 3 personnes sélectionnés parmi un total de 571 personnes dans le hackathon #Hack_cheddarek
+                      <button ><a href="./rahma2.php"> Rahma2</a></button>
                     </div>
                     <hr>
                 </div>
@@ -80,60 +56,9 @@ include('nav.php');
         </div>
     </section>
 
-    <section class="howitworks" id="howitworks">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="text-right mr-0 ml-auto content-wrapper">
-                        <span class="font-weight-bold d-block font-size-xxlarge">
-                        Transformez vos quartiers en Rahma avec nous.
-                    </span>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mb-2 mt-auto">
-                    <div class="content-wrapper">
-                        <div>
-                            Voulez-vous voir par vous-même à quoi cela ressemble lorsque vous appelez notre service? Essayez-le!
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg-6"></div>
-                <div class="col-12 col-lg-6">
-                    <div class="content-wrapper">
-                        <div class="text-center mb-3 mt-3">
-                            <a href="tel:+216*******" class="btn-machbarschaft btn-s bg-color-button-1 text-white d-inline-block">
-                            +216*******
-                        </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <img src="img/Grafik_5.png" class="img-fluid content-wrapper d-block mr-0 ml-auto">
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="content-wrapper">
-                        Vos données seront transférées dans notre base de données et votre commande arrivera réellement dans notre application. Si votre commande n'est pas acceptée, vous recevrez un appel après 24 heures indiquant que votre commande n'a pas encore pu être traitée,
-                        mais vous pouvez prolonger la commande.
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 mt-5">
-                    <div class="content-wrapper-large font-weight-bold font-size-xxlarge text-center ml-auto mr-auto text-color-red">
-                        Les personnes âgées sont actuellement particulièrement à risque et ont besoin d'aide, mais n'ont souvent pas accès à une assistance numérique de quartier.
-                    </div>
-                    <div class="col-12 mt-3">
-                        <span class="d-block text-center">
-                    Un appel à Rahma aide déjà.
-                </span>
-                    </div>
-                </div>
-            </div>
-    </section>
+    <?php 
+    include('howItWorks.php');
+    ?>
 
     <section class="features" id="features">
         <div class="container">
@@ -239,77 +164,15 @@ include('nav.php');
         </div>
     </section>
 
-    <section class="bg-other text-center" id="about-us">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-12 col-lg-6">
-                    <div class="content-wrapper mr-0 ml-auto text-right">
-                        <span class="font-weight-bold font-size-xxlarge">
-                        Nous sommes une équipe de 3 personnes
-                    </span>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="content-wrapper ml-0 pt-2 mr-auto text-left">
-                        La mission nous a réunis pour fournir un accès sûr et rapide à l'assistance de quartier pour les personnes âgées sans accès à Internet pendant la pandémie de corona. Nous sommes convaincus que tout est possible ensemble!
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-sm-4 col-lg-3 mb-3 mt-3">
-                    <img src="img/team/anas.jpg" class="img-team" style="height: 120px; width: 120px; border-radius: 50%">
-                    <div class="text-center">
-                        <h4>Anas Chaibi</h4>
-                        <span class="d-block font-weight-bold">Etudiant à l Insat</span>
-                        <span class="d-block">
-                          Tech lover
-                      </span>
-                        <span class="d-block">
-                          <a class="about-social" <i
-                                  class="fab fa-linkedin-in"></i></a>
-                          <a class="about-social" href="https://github.com/anasch07"><i
-                                  class="fab fa-github"></i></a>
-                      </span>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-lg-3 mb-3 mt-3">
-                    <img src="img/team/moukim.jpg" class="img-team" style="height: 120px; width: 120px; border-radius: 50%">
-                    <div class="text-center">
-                        <h4>Moukim</h4>
-                        <span class="d-block font-weight-bold">Etudiant FSEGN</span>
-                        <span class="d-block">JS lover
-                        
-                      </span>
-                        <span class="d-block">
-                        <a class="about-social" href="https://www.linkedin.com/in/moukim"><i
-                                class="fab fa-linkedin-in"></i></a>
-                                <a class="about-social" href="https://github.com/MoukimHF/"><i class="fab fa-github"></i></a>
-                    </span>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-lg-3 mb-3 mt-3">
-                    <img src="img/team/hayder.jpg" style="height: 120px; width: 120px; border-radius: 50%">
-                    <div class="text-center">
-                        <h4>Hayder hedfi</h4>
-                        <span class="d-block font-weight-bold">Etudiant</span>
-                        <span class="d-block"></span>
-                        <span class="d-block">
-                        <a class="about-social" href="https://www.linkedin.com/in/benedikt-bleuel-81a18b1a5/"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a class="about-social" href="https://github.com/hayderhedfi/"><i class="fab fa-github"></i></a>
-                      </span>
-                    </div>
-                </div>
+    <?php 
+    include('us.php');
+    ?>
 
 
-            </div>
-    </section>
 
-
-<?php
-
-include('footer.php');
-?>
+   <?php 
+   include('footer.php');
+   ?>
 </body>
 
 </html>

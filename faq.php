@@ -1,103 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr>
+<html lang="fr">
+<?php 
 
-<head>
-
-    <meta charset=" utf-8 ">
-    <meta name="viewport " content="width=device-width, initial-scale=1, shrink-to-fit=no ">
-    <meta name="description " content=" ">
-    <meta name="Edited by Lukas H " content=" ">
-    <meta property="og:title " content="TnSolvers " />
-
-    <meta property="og:description " content="Transformez les quartiers d 'Allemagne en quartiers Intelligentes" />
-    <meta property="og:type" content="article" />
-
-    <title>TnSolvers</title>
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
-
-    <!-- Custom styles for this template -->
-    <link href="css/new-age.min.css" rel="stylesheet">
-
-    <!-- Favicon -->
-    <link rel="icon" href="/img/favicon/edited.png" type="image/png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/img/favicon/edited.png">
-    <meta name="theme-color" content="#ffffff">
-
-</head>
+include('head.php');
+?>
 
 <body id="page-top">
 
 
-    <!-- Matomo -->
-    <script type="text/javascript">
-        var _paq = window._paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-        _paq.push(["setCookieDomain", "*."]);
-        _paq.push(['trackPageView ']);
-        _paq.push(['enableLinkTracking ']);
-        (function() {
-            var u = "";
-            _paq.push(['setTrackerUrl ', u + 'matomo.php ']);
-            _paq.push(['setSiteId ', '2 ']);
-            var d = document,
-                g = d.createElement('script '),
-                s = d.getElementsByTagName('script ')[0];
-            g.type = 'text/javascript ';
-            g.async = true;
-            g.defer = true;
-            g.src = u + 'matomo.js ';
-            s.parentNode.insertBefore(g, s);
-        })();
-    </script>
-    <noscript><p><img src="" style="border:0;" alt="" /></p></noscript>
-    <!-- End Matomo Code -->
-
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">
-                <img id="logo" src="img/edited.png" width="150px" height="auto" alt="logo">
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html#download">TÉLÉCHARGER</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html#features">À PROPOS </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html#about-us">ÉQUIPE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html#contact">CONTACT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+   <?php 
+   include('nav.php');
+   ?>
 
     <section class="download bg-primary pb-3">
         <div class="container">
@@ -173,19 +86,8 @@
 </div>
 </div>
 </section>
-
-<footer>
-    <div class="container">
-        <p>&copy; 2020. All Rights Reserved.</p>
-        <p>Created with ❤</p>
-        <span class="d-block">
-                <a class="mr-3" href="impressum.html">Mentions</a>
-                <a class="mr-3" href="#">légales</a>
-                <a href="faq.html">FAQ sur la confidentialité</a>
-            </span>
-    </div>
-</footer>
-
+<?php include('footer.php');
+?>
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

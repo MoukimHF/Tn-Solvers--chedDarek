@@ -26,7 +26,7 @@
     <!-- Favicon -->
     <link rel="icon" href="/img/favicon/edited.png" type="image/png" sizes="16x16">
 
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
