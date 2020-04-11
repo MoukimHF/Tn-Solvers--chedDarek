@@ -71,9 +71,9 @@ Nous développons une solution accessible à tous: une application Web basé où
                     <div class="ml-auto mr-auto text-center content-wrapper">
                       <a href="9adhya.php">
 
-<span style="font-size:30px">نوصي قضية  </span></a>
+<span style="font-size:30px;color:red;">نوصي قضية  </span></a>
 <br>
-<a href="rahma2.php"><span style="font-size:30px">
+<a href="rahma2.php"><span style="font-size:30px;color:red;">
 نقضي لجاري  </span></a>
                     </div>
                     <hr>
